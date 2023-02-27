@@ -13,8 +13,8 @@ function Header() {
 
         <Nav>
           <Nav.Link href="#"> Home </Nav.Link>
+          <Nav.Link href="#memes"> Products </Nav.Link>
           <Nav.Link href="#memes"> About  </Nav.Link>
-          <Nav.Link href="#memes"> Contact  </Nav.Link>
           <NavDropdown title="Customize Studio" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1"> T-shirt </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3"> Caps</NavDropdown.Item>
