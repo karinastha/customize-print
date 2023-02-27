@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Product from "../Product/Product";
 import About from "../About/About";
+import Contact from "../Contact/Contact";
 
 
 function Home() {
@@ -94,7 +95,7 @@ function Home() {
                 </div>
                 < About />
             </div>
-
+            <Contact />
 
         </div>
     )
