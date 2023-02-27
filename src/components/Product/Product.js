@@ -3,7 +3,7 @@ import "./Product.css";
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 
-function Product({ id, title, image, price, rating }) {
+function Product({ id, title, price, rating, image }) {
 
   return (
     <div className="product">
@@ -25,7 +25,7 @@ function Product({ id, title, image, price, rating }) {
       </div>
 
       <img src={image} alt="Image nor found" />
-      <button > <ShoppingBasketIcon /> Add to Basket </button>
+      <button className='basket'> <ShoppingBasketIcon /> Add to Basket </button>
     </div>
   )
 }

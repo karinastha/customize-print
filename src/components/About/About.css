@@ -1,53 +1,75 @@
 .about {
-    display: flex;
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
     justify-content: center;
     height: 30%;
 
+}
 
+.about__title {
+    margin: 17px 421px;
+    font-weight: bolder;
+}
+
+.about__desc1 {
+    margin: 5px 350px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about__desc2 {
+    margin: 20px 25px;
+}
+
+.box {
+    display: flex;
+    height: 60%;
+    width: 90%;
+    justify-content: center;
+    padding: 5px 5px;
+    /* align-items: center; */
 }
 
 .first__row {
-    font-style: normal;
+
+    font-weight: bolder;
     box-sizing: border-box;
     border-radius: 0.5px;
-    background-color: rgba(145, 143, 236, 0.318);
-    justify-content: center;
+    background-color: rgba(108, 106, 237, 0.318);
     padding: 5px 5px;
-    height: 70%;
-    width: 25%;
-    background-image: url("https://i.pinimg.com/564x/7a/60/1c/7a601c992e33493b405d3c766ceef66f.jpg");
+    background-image: url("https://i.pinimg.com/564x/3f/76/9a/3f769a71d8fa18b86d3b5898e7e9d2a1.jpg");
     /* opacity: 15px; */
     background-size: cover;
     /* box-shadow: inset 5 5 5 5000px rgba(255, 0, 150, 0.3); */
-    color: aliceblue;
+    color: rgb(243, 237, 237);
     background-blend-mode: overlay;
 
 }
 
 
 .second__row {
-    font-style: normal;
+    font-weight: bolder;
     box-sizing: border-box;
     border-radius: 0.5px;
     background-color: rgba(94, 93, 98, 0.318);
     box-shadow: 15px;
-    justify-content: center;
-    padding: 5px 5px;
-    height: 70%;
-    width: 25%;
+    background-image: url("https://i.pinimg.com/564x/d9/1d/a2/d91da2e406da6130b1c53e39aa759e37.jpg");
+    background-size: cover;
+    /* box-shadow: inset 5 5 5 5000px rgba(255, 0, 150, 0.3); */
+    color: rgb(37, 38, 39);
+    background-blend-mode: hue;
 
 
 }
 
 .title {
     font-size: larger;
+    font-weight: bolder;
     margin: 20px 5px;
 }
 
 .desc {
-    font-style: bold;
+    font-weight: bolder;
     text-align: justify;
     font-size: medium;
     margin: 20px 5px;
@@ -58,4 +80,8 @@
     margin: 18px 5px;
     padding-bottom: 8px;
     border: 0px;
+    border-color: #cbc2aa #6f6345 #846a29;
+    color: #111;
+    border-radius: 5px;
+    background: #eae9e7;
 }
