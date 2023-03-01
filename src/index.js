@@ -4,13 +4,26 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
+// import Header from "./components/Header/Header";
+// import Home from "./components/Home/Home";
+// import About from "./components/About/About";
+// import Product2 from "./components/Product/Product2";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+      {/* <Switch>
+        <Route path="/" component={App} />
+        <Route path='/header' exact component={Header} />
 
+        <Route path='/home' component={Home} />
 
+        <Route path='/about' component={About} />
+
+        <Route path='/product2' component={Product2} />
+
+      </Switch> */}
       <App />
     </Router>
 

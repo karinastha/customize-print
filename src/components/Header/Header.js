@@ -17,7 +17,7 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
         <Nav>
-          <Nav.Link > <Link to="/home"> Home</Link>  </Nav.Link>
+          <Nav.Link> <Link to="/home">  Home</Link> </Nav.Link>
           <Nav.Link> <Link to="/product2">Products </Link>  </Nav.Link>
           <Nav.Link ><Link to="/about"> About </Link>   </Nav.Link>
           {/* <Nav.Link href="#homet"> Home  </Nav.Link>
@@ -29,7 +29,6 @@ function Header() {
             <NavDropdown.Divider />
           </NavDropdown>
         </Nav>
-
       </Container>
     </Navbar>
   );
