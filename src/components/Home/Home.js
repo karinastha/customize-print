@@ -94,8 +94,10 @@ function Home() {
                     />
                 </div>
                 < About />
+                <Contact />
+
             </div>
-            <Contact />
+
 
         </div>
     )
