@@ -20,14 +20,16 @@ function Header() {
           <Nav.Link> <Link to="/">  Home</Link> </Nav.Link>
           <Nav.Link> <Link to="/product2">Products </Link>  </Nav.Link>
           <Nav.Link ><Link to="/about"> About </Link>   </Nav.Link>
+          <Nav.Link ><Link to="/tshirt"> Custom </Link>   </Nav.Link>
+
           {/* <Nav.Link href="#homet"> Home  </Nav.Link>
           <Nav.Link href="#products">Products   </Nav.Link>
           <Nav.Link href="#about"> About    </Nav.Link> */}
-          <NavDropdown title="Customize Studio" id="collasible-nav-dropdown">
+          {/* <NavDropdown title="Customize Studio" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1"> T-shirt </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3"> Caps</NavDropdown.Item>
             <NavDropdown.Divider />
-          </NavDropdown>
+          </NavDropdown> */}
         </Nav>
       </Container>
     </Navbar>
