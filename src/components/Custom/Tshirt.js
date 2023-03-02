@@ -2,16 +2,18 @@ import { useState } from "react";
 import "./Tshirt.css";
 
 export function Tshirt() {
-    const data = { text: "", image: "" };
-    const [inputData, setInputData] = useState(data);
-    const [value, setValue] = useState([]);
+    const data = { text: "" };
+    const [textInput, setText] = useState(data);
+    const [imageInput, setImage] = useState();
 
     const handleSubmit = () => {
-        setValue([...value, inputData]);
-        localStorage.setItem('formValues', JSON.stringify(inputData));
+        setText([...textInput]);
+        localStorage.setItem('formValues', JSON.stringify(textInput));
+        setImage([...imageInput]);
+        localStorage.setItem('formValues', JSON.stringify(imageInput));
     };
 
-    console.log(value);
+    console.log(imageInput);
     return (
         <div className='main__box'>
             <div className="first__box">
@@ -21,7 +23,8 @@ export function Tshirt() {
                         <input type="file"
                             name="image"
                             onChange={(e) =>
-                                console.log(e.target.files) || setInputData({ ...inputData, name: e.target.files[0] })
+                                this.setState({ imageInput, setImage: e.target.files[0] })
+                                // (e.target.) || setInputData({ ...inputData, name: e.target.[0] })
 
                             }
                         />
@@ -32,23 +35,28 @@ export function Tshirt() {
                             placeholder="Add text"
                             name="fulltext"
                             onChange={(e) =>
-                                setInputData({ ...inputData, name: e.target.value })
+                                textInput({ ...textInput, name: e.target.value })
                             }
                         ></input>
                     </div>
                     <div className="submit_btn">
                         <button type="button" onClick={() => handleSubmit()}>
-                            Submit
+                            Add
                         </button>
+                        <div>
+                            <button type="button" onClick={() => handleSubmit()}>
+                                Remove
+                            </button> </div>
                     </div>
+
 
                     <div className='tshirt__image'>
                         {
-                            value.map(
+                            imageInput.map(
                                 (info, id) => {
                                     return (
                                         <tr key={id}>
-                                            <td> {info.fulltext} </td>
+                                            {/* <td> {info.fulltext} </td> */}
                                             <td> {info.image} </td>
 
 

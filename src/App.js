@@ -1,35 +1,41 @@
 // import './App.css';
-import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Product2 from "./components/Product/Product2";
-import { Tshirt } from "./components/Custom/Tshirt";
+// import Header from "./components/Header/Header";
+// import Home from "./components/Home/Home";
+// import About from "./components/About/About";
+// import Product2 from "./components/Product/Product2";
+// import { Tshirt } from "./components/Custom/Tshirt";
 
 
-import {
-  BrowserRouter as
-    Switch,
-  Route,
-} from "react-router-dom";
+import { Link, Routes, Route } from "react-router-dom";
 
+
+const Home = () => <div>hOME</div>;
+const About = () => <div>About</div>;
 
 function App() {
   return (
     <div className="App">
-      <Switch>
-        <Route exact path="/header" component={Header} />
 
-        <Route path='/home' component={Home} />
 
-        <Route path='/about' component={About} />
+      <Link to="home">Home</Link>
+      <Link to="about">About</Link>
 
-        <Route exact path='/product2' component={Product2} />
+      <Routes>
+        <Route exact path="/" component={Home} />
+        <Route path="about" component={About} />
+      </Routes>
+      {/* <Header /> */}
 
-      </Switch>
-      <Header />
+      {/* <Switch>
+        <Route exact path='/' component={Home} /> */}
+      {/* <Route path='/about' component={About} /> */}
+      {/* <Route path='/about' component={Test} /> */}
+      {/* <Route path='/product2' component={Product2} /> */}
+      {/* <Route path='/product2' component={Dummy} />
+      </Switch> */}
       {/* <Home /> */}
       {/* <Product2 /> */}
-      <Tshirt />
+      {/* <Tshirt /> */}
     </div>
   );
 }

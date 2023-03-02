@@ -2,6 +2,7 @@ import React from 'react';
 import Product from './Product';
 
 function Product2() {
+    console.log("product2");
     return (
         <div>
             <div className="home__row">

@@ -13,11 +13,11 @@ function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#header"> <CheckroomIcon /> Fit-Me </Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"> <CheckroomIcon /> Fit-Me </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
         <Nav>
-          <Nav.Link> <Link to="/home">  Home</Link> </Nav.Link>
+          <Nav.Link> <Link to="/">  Home</Link> </Nav.Link>
           <Nav.Link> <Link to="/product2">Products </Link>  </Nav.Link>
           <Nav.Link ><Link to="/about"> About </Link>   </Nav.Link>
           {/* <Nav.Link href="#homet"> Home  </Nav.Link>

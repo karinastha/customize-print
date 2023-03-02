@@ -26,6 +26,7 @@
 }
 
 .submit_btn {
+    display: flex;
     margin: 15px 15px;
     /* background: linear-gradient(90deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%)); */
     border-radius: 30px;
