@@ -1,64 +1,65 @@
 .main__box {
-    display: flex;
+  display: flex;
 }
 
 .first__box {
-    width: 40%;
-    height: 500px;
-    /* border: 1px solid green; */
-    padding: 50px;
-    align-items: center;
-    margin: 40px 50px;
-    background-color: rgb(217, 246, 214);
-    background: linear-gradient(90deg, hsl(192, 17%, 53%), hsl(135, 35%, 87%));
-    border-radius: 5px;
-    box-shadow: 10px 5px 5px rgba(157, 202, 205, 0.608);
+  width: 40%;
+  height: 500px;
+  /* border: 1px solid green; */
+  padding: 50px;
+  align-items: center;
+  margin: 40px 50px;
+  background-color: rgb(217, 246, 214);
+  background: linear-gradient(90deg, hsl(192, 17%, 53%), hsl(135, 35%, 87%));
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px rgba(157, 202, 205, 0.608);
 }
 
 .image {
-    margin: 15px 15px;
-
+  margin: 15px 15px;
 }
 
 .text {
-    margin: 15px 15px;
-
+  margin: 15px 15px;
 }
 
 .submit_btn {
-    display: flex;
-    margin: 15px 15px;
-    /* background: linear-gradient(90deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%)); */
-    border-radius: 30px;
-    padding: 12px;
-    font-size: 14px;
-    border-style: none;
-    cursor: pointer;
-    width: 20%;
+  display: flex;
+  margin: 15px 15px;
+  /* background: linear-gradient(90deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%)); */
+  border-radius: 30px;
+  padding: 12px;
+  font-size: 14px;
+  border-style: none;
+  cursor: pointer;
+  width: 20%;
 }
 
 .second__box {
-    display: flex;
-    width: 50%;
-    height: 400px;
-    /* border: 1px solid green; */
-    margin: 30px 178px;
-    right: 25px;
-    padding: 25px 69px;
-    cursor: pointer;
-
+  display: flex;
+  width: 50%;
+  height: 400px;
+  /* border: 1px solid green; */
+  margin: 30px 178px;
+  right: 25px;
+  padding: 25px 69px;
+  cursor: pointer;
 }
 
 .image1 {
-    margin-right: 25px 25px;
-    height: 520px;
-    width:90%;
+  margin-right: 25px 25px;
+  height: 520px;
+  width: 90%;
 }
 
 .image2 {
-    margin-right: 177px;
-    height: 300px;
-    justify-content: center;
-    align-items: center;
+  margin-right: 177px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
 
+td,
+th {
+  border: 1px solid;
 }
