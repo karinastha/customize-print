@@ -3,6 +3,7 @@
     z-index: 0.5;
     margin-left: 5px;
     margin-right: 5px;
+
 }
 
 .product {
@@ -23,7 +24,9 @@
 
 .product__info {
     position: absolute;
-    margin: 124px;
+    margin: 110px;
+    padding: 10px;
+    text-align: start;
     /* display: flex;
     flex-direction: column-reverse; */
     /* margin: 15px; */
@@ -68,7 +71,14 @@
 
 }
 
-
+.product__title {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 56px 5px;
+}
 
 /* .product__info {
     height: 100px;

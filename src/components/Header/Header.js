@@ -3,24 +3,37 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Badge, Dropdown } from 'react-bootstrap';
+
 // import StorefrontIcon from '@mui/icons-material/Storefront';
 import CheckroomIcon from '@mui/icons-material/Checkroom';
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { Link } from "react-router-dom";
+import { FaShoppingCart } from "react-icons/fa";
 
 
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ backgroundColor: "white", textDecorationStyle: "unset" }}>
       <Container>
         <Navbar.Brand as={Link} to="/"> <CheckroomIcon /> Fit-Me </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
-        <Nav>
-          <Nav.Link> <Link to="/">  Home</Link> </Nav.Link>
+        <Nav variant="dark">
+          <Nav.Link variant="dark"> <Link to="/" >  Home</Link> </Nav.Link>
           <Nav.Link> <Link to="/product2">Products </Link>  </Nav.Link>
-          <Nav.Link ><Link to="/about"> About </Link>   </Nav.Link>
+          <Nav.Link ><Link to="/contact"> Contact </Link>   </Nav.Link>
           <Nav.Link ><Link to="/tshirt"> Custom </Link>   </Nav.Link>
+          <Nav.Link ><Link to=""> Sign In </Link>   </Nav.Link>
+          <NavDropdown title={<FaShoppingCart color="white" />} id="collasible-nav-dropdown">
+            <Nav.Link ><Link to="">  <Badge> 10</Badge></Link>   </Nav.Link>
+
+
+          </NavDropdown>
+
+          {/* <Nav.Link ><Link to=""> <ShoppingBasketIcon /> </Link>   </Nav.Link> */}
+
 
           {/* <Nav.Link href="#homet"> Home  </Nav.Link>
           <Nav.Link href="#products">Products   </Nav.Link>
