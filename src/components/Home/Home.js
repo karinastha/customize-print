@@ -4,7 +4,6 @@ import Product from "../Product/Product";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 
-
 function Home() {
     return (
         <div className="home">
@@ -102,4 +101,5 @@ function Home() {
         </div>
     )
 }
+
 export default Home;

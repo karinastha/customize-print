@@ -6,10 +6,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Badge, Dropdown } from 'react-bootstrap';
 
 // import StorefrontIcon from '@mui/icons-material/Storefront';
-import CheckroomIcon from '@mui/icons-material/Checkroom';
-import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+// import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
+import CheckroomIcon from '@mui/icons-material/Checkroom';
+
 
 
 
@@ -29,6 +30,11 @@ function Header() {
           <NavDropdown title={<FaShoppingCart color="white" />} id="collasible-nav-dropdown">
             <Nav.Link ><Link to="">  <Badge> 10</Badge></Link>   </Nav.Link>
 
+            <Dropdown.Menu style={{ minWidth: 370 }}>
+              <span style={{ padding: 10 }}>
+                Cart is Empty!
+              </span>
+            </Dropdown.Menu>
 
           </NavDropdown>
 

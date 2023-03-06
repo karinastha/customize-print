@@ -4,16 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
+// import Context from './context/Context';
 // import Header from "./components/Header/Header";
 // import Home from "./components/Home/Home";
 // import About from "./components/About/About";
 // import Product2 from "./components/Product/Product2";
+import CartProvider from "./CartContext";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
-      {/* <Switch>
+    <CartProvider>
+      <Router>
+        {/* <Switch>
         <Route path="/" component={App} />
         <Route path='/header' exact component={Header} />
 
@@ -24,9 +27,11 @@ root.render(
         <Route path='/product2' component={Product2} />
 
       </Switch> */}
-      <App />
-    </Router>
 
+        <App />
+
+      </Router>
+    </CartProvider>
   </React.StrictMode>
 );
 
