@@ -9,29 +9,18 @@ import { BrowserRouter as Router } from "react-router-dom";
 // import Home from "./components/Home/Home";
 // import About from "./components/About/About";
 // import Product2 from "./components/Product/Product2";
-import CartProvider from "./CartContext";
+// import CartProvider from "./CartContext";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CartProvider>
+    {/* <CartProvider> */}
       <Router>
-        {/* <Switch>
-        <Route path="/" component={App} />
-        <Route path='/header' exact component={Header} />
-
-        <Route path='/home' component={Home} />
-
-        <Route path='/about' component={About} />
-
-        <Route path='/product2' component={Product2} />
-
-      </Switch> */}
 
         <App />
 
       </Router>
-    </CartProvider>
+    {/* </CartProvider> */}
   </React.StrictMode>
 );
 

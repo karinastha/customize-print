@@ -1,13 +1,13 @@
 import React from 'react';
-import Product from './Product';
-import "./Product2.css";
+// import Product from './Product';
+// import "./Product2.css";
 
 // function Product2() {
 //     console.log("product2");
 //     return (
-var productsArray = [
+// var productsArray = [
 
-<div>
+{/* <div>
     <h2 className='product__title'> Our Product </h2>
     
     <div className="home__row">
@@ -54,14 +54,6 @@ var productsArray = [
             image="https://i.pinimg.com/564x/7a/4d/1d/7a4d1db7186a047fb3757e64d2b86889.jpg" alt="Image not found"
         />
 
-        {/* <Product
-                    id="03"
-                    title="Black Clover Anime Graphic T-shirt"
-                    price={1500}
-                    rating={4}
-                    image="https://i.pinimg.com/564x/7a/4d/1d/7a4d1db7186a047fb3757e64d2b86889.jpg" alt="Image not found"
-                /> */}
-
     </div>
 
     <div className="home__row">
@@ -105,10 +97,75 @@ var productsArray = [
             image="https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg" alt="Image not found"
         />
     </div>
-</div>
-                ];
+ </div>
+} */}
+//                 ];
+// export default productsArray;
 
+export default Product2;
 
-
-export default productsArray;
-// export default Product2;
+export const Product2 = [
+            {
+                id : 1,
+                title: "Black Clover Anime Graphic T-shirt",
+                price: 'Rs. 1500',
+                image :"https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg",
+                amount: 1
+            },
+            {
+                id : 2,
+                title: "Black Clover Anime Graphic T-shirt",
+                price: 'Rs. 2000',
+                image :"https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg",
+                amount: 1
+            },
+            {
+                id : 3,
+                title: "Black Clover Anime Graphic T-shirt",
+                price: 'Rs. 3500',
+                image :"https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg",
+                amount: 1
+            },
+            {
+                id : 4,
+                title: "Black Clover Anime Graphic T-shirt",
+                price: 'Rs. 2000',
+                image :"https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg",
+                amount: 1
+            },
+            {
+                id : 5,
+                title: "Black Clover Anime Graphic T-shirt",
+                price: 'Rs. 1500',
+                image :"https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg",
+                amount: 1
+            },
+            {
+                id : 6,
+                title: "Black Clover Anime Graphic T-shirt",
+                price: 'Rs. 1500',
+                image :"https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg",
+                amount: 1
+            },
+            {
+                id : 7,
+                title: "Black Clover Anime Graphic T-shirt",
+                price: 'Rs. 1500',
+                image :"https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg",
+                amount: 1
+            },
+            {
+                id : 8,
+                title: "Black Clover Anime Graphic T-shirt",
+                price: 'Rs. 1500',
+                image :"https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg",
+                amount: 1
+            },
+            {
+                id : 9,
+                title: "Black Clover Anime Graphic T-shirt",
+                price: 'Rs. 1500',
+                image :"https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg",
+                amount: 1
+            }
+]

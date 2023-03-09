@@ -12,8 +12,6 @@ import { FaShoppingCart } from "react-icons/fa";
 import CheckroomIcon from '@mui/icons-material/Checkroom';
 
 
-
-
 function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ backgroundColor: "white", textDecorationStyle: "unset" }}>

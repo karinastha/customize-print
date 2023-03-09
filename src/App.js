@@ -4,8 +4,6 @@ import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import Product2 from "./components/Product/Product2";
 import {Tshirt} from "./components/Custom/Tshirt";
-
-
 import { Routes, Route } from "react-router-dom";
 
 
