@@ -24,7 +24,7 @@ function Header() {
           <Nav.Link> <Link to="/product2">Products </Link>  </Nav.Link>
           <Nav.Link ><Link to="/contact"> Contact </Link>   </Nav.Link>
           <Nav.Link ><Link to="/tshirt"> Custom </Link>   </Nav.Link>
-          <Nav.Link ><Link to=""> Sign In </Link>   </Nav.Link>
+          <Nav.Link ><Link to="/loginguest"> Sign In </Link>   </Nav.Link>
           <NavDropdown title={<FaShoppingCart color="white" />} id="collasible-nav-dropdown">
             <Nav.Link ><Link to="">  <Badge> 10</Badge></Link>   </Nav.Link>
 

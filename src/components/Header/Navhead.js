@@ -13,7 +13,7 @@ import CheckroomIcon from '@mui/icons-material/Checkroom';
 import { useStateValue } from "../../context/StateProvider";
 
 function Navhead() {
-  const [{basket}] = useStateValue();
+  const [{ basket }] = useStateValue();
   return (
 
     <div className="header">
@@ -31,10 +31,10 @@ function Navhead() {
       </div>
 
       <Nav variant="dark">
-        <Nav.Link > <Link to="/" style={{ textDecoration: "none", color: "white"}}>  Home</Link> </Nav.Link>
-        <Nav.Link> <Link to="/product2" style={{ textDecoration: "none", color: "white"}}>Products </Link>  </Nav.Link>
-        <Nav.Link ><Link to="/contact" style={{ textDecoration: "none", color: "white"}}> Contact </Link>   </Nav.Link>
-        <Nav.Link ><Link to="/tshirt" style={{ textDecoration: "none", color: "white"}}> Custom </Link>   </Nav.Link>
+        <Nav.Link > <Link to="/" style={{ textDecoration: "none", color: "white" }}>  Home</Link> </Nav.Link>
+        <Nav.Link> <Link to="/product2" style={{ textDecoration: "none", color: "white" }}>Products </Link>  </Nav.Link>
+        <Nav.Link ><Link to="/contact" style={{ textDecoration: "none", color: "white" }}> Contact </Link>   </Nav.Link>
+        <Nav.Link ><Link to="/tshirt" style={{ textDecoration: "none", color: "white" }}> Custom </Link>   </Nav.Link>
       </Nav>
 
 
@@ -45,15 +45,15 @@ function Navhead() {
           <span className="nav__itemLineOne"> <Link to="/product2">Products </Link> </span>
           <span className="nav__itemLineOne"> <Link to="/contact"> Contact </Link> </span>
             <span className="nav__itemLineTwo"> <Link to="/tshirt"> Custom </Link> </span> */}
-            <span className="nav__itemLineOne">Hello Admin</span>
+            <span className="nav__itemLineOne">  <Link to="/loginguest" style={{ textDecoration: "none", color: "white" }}> Hello Admin</Link></span>
             <span className="nav__itemLineTwo">Sign In</span>
           </div>
         </Link>
-    
+
         <Link to="/checkout" style={{ textDecoration: "none" }}>
-          <div className="nav__itemBasket"> <Link to="/cart" style={{ textDecoration: "none", color: "white"}}> 
-          <FaShoppingCart />
-            </Link>
+          <div className="nav__itemBasket"> <Link to="/cart" style={{ textDecoration: "none", color: "white" }}>
+            <FaShoppingCart />
+          </Link>
             <span className="nav__itemLineTwo nav__basketCount">{basket.length}</span>
           </div>
         </Link>

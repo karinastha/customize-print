@@ -46,7 +46,7 @@ const addToBasket = () =>{
       <img src={image} alt="Image nor found" />
       <button className='basket' onClick={ addToBasket }> <ShoppingBasketIcon /> Add to Basket </button>
     </div>
-  )
+  );
 }
 
 export default Product;
@@ -78,7 +78,7 @@ export default Product;
 //           {Array(rating)
 //             .fill()
 //             .map((_, i) => (
-//               <p> ⭐ </p>
+//               <p>  </p>
 //             ))}
 //         </div>
 //       </div>
