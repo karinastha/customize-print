@@ -1,9 +1,11 @@
 import './App.css';
-import Header from "./components/Header/Header";
+import Header from "./components/Header/Navhead";
 import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import Product2 from "./components/Product/Product2";
 import {Tshirt} from "./components/Custom/Tshirt";
+import Checkout from "./components/Checkout/Checkout";
+// import Checkout from "./components/Checkout/";
 import { Routes, Route } from "react-router-dom";
 
 
@@ -29,6 +31,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path='/product2' element={<Product2 />} />
         <Route path='/tshirt' element={<Tshirt />} />
+        <Route path='/cart' element={<Checkout />} />
+        
 
       </Routes>
       {/* <Home /> */}

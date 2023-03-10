@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
+import reducer, {initialState } from "./context/reducer";
+import { StateProvider  } from './context/StateProvider';
 // import Context from './context/Context';
 // import Header from "./components/Header/Header";
 // import Home from "./components/Home/Home";
@@ -16,8 +18,10 @@ root.render(
   <React.StrictMode>
     {/* <CartProvider> */}
       <Router>
+    <StateProvider initialState={initialState} reducer={reducer}>
 
         <App />
+        </StateProvider>
 
       </Router>
     {/* </CartProvider> */}
