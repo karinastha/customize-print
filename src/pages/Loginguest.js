@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 import CheckroomIcon from '@mui/icons-material/Checkroom';
 
-import { auth } from "../database/Firebase";
+import { auth } from "../database/firebase";
 
 function Login() {
     const navigate = useNavigate();

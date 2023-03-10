@@ -1,9 +1,10 @@
 .subtotal {
+    transform: translate(265px, 137px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 300px;
-    height: 100px;
+    height: 20%;
     padding: 20px;
     background-color: #f3f3f3;
     border: 1px solid #dddddd;
@@ -15,11 +16,11 @@
     align-items: center;
 }
 
-.subtotal__gift > input {
+.subtotal__gift>input {
     margin-right: 5px;
 }
 
-.subtotal > button {
+.subtotal>button {
     background: #ff9f00;
     border-radius: 2px;
     width: 100%;

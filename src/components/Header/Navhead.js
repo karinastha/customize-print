@@ -45,7 +45,7 @@ function Navhead() {
           <span className="nav__itemLineOne"> <Link to="/product2">Products </Link> </span>
           <span className="nav__itemLineOne"> <Link to="/contact"> Contact </Link> </span>
             <span className="nav__itemLineTwo"> <Link to="/tshirt"> Custom </Link> </span> */}
-            <span className="nav__itemLineOne">  <Link to="/loginguest" style={{ textDecoration: "none", color: "white" }}> Hello Admin</Link></span>
+            <span className="nav__itemLineOne">  <Link to="/login" style={{ textDecoration: "none", color: "white" }}> Hello Admin</Link></span>
             <span className="nav__itemLineTwo">Sign In</span>
           </div>
         </Link>

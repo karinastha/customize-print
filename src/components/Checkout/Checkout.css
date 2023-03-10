@@ -18,5 +18,6 @@
 
 .checkout__left {
     display: flex;
+    margin: 5px 92px;
     flex-direction: column;
 }

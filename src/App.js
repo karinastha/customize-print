@@ -5,7 +5,11 @@ import Contact from "./components/Contact/Contact";
 import Product2 from "./components/Product/Product2";
 import {Tshirt} from "./components/Custom/Tshirt";
 import Checkout from "./components/Checkout/Checkout";
-import Loginguest from "./pages/Loginguest";
+import Login from "./pages/Login/Login";
+import Signup from "./pages/Signup/Signup";
+import Order from "./admin/Order/Order";
+import Addnewproduct from "./admin/Addproduct/Addproduct";
+
 // import Checkout from "./components/Checkout/";
 import { Routes, Route } from "react-router-dom";
 
@@ -33,7 +37,14 @@ function App() {
         <Route path='/product2' element={<Product2 />} />
         <Route path='/tshirt' element={<Tshirt />} />
         <Route path='/cart' element={<Checkout />} />
-        <Route path='/loginguest' element={<Loginguest />} />
+        <Route path='/login' element={<Login />} />
+
+        <Route path='/signup' element={<Signup />} />
+        <Route path='/order' element={<Order />} />
+        <Route path='/addnewproduct' element={<Addnewproduct />} />
+
+        {/* <Route path="/order" element={<Admin/>}/>
+        <Route path="/product" element={<Product/>}/> */}
       </Routes>
       {/* <Home /> */}
       {/* <Product2 /> */}

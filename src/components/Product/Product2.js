@@ -14,32 +14,32 @@ function Product2() {
 
         <Product className="first"
             id="01"
-            title="Black Clover Anime Graphic T-shirt"
-            price={1500}
-            rating={3}
-            image="https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg" alt="Image not found"
+            title="Graphic tee available in oversized"
+            price={4500}
+            rating={4}
+            image="https://i.pinimg.com/564x/46/24/b3/4624b3a6b5ef48fbd8e054ed90d2f521.jpg" alt="Image not found"
         />
 
         <Product
             id="02"
             title="Black Clover Anime Graphic T-shirt"
-            price={500}
+            price={2000}
             rating={2}
             image="https://i.pinimg.com/564x/ae/6e/e7/ae6ee7e507776bf76100a34892014a40.jpg" alt="Image not found"
         />
 
         <Product
-            id="01"
-            title="Black Clover Anime Graphic T-shirt"
-            price={1500}
+            id="03"
+            title="Cute matching bunny hoodie "
+            price={8500}
             rating={3}
-            image="https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg" alt="Image not found"
+            image="https://i.pinimg.com/564x/61/8e/d4/618ed4e9d7da758257a66f60502c8606.jpg" alt="Image not found"
         />
     </div>
 
     <div className="home__row">
         <Product
-            id="03"
+            id="04"
             title="Black Clover Anime Graphic T-shirt"
             price={2500}
             rating={1}
@@ -47,11 +47,11 @@ function Product2() {
         />
 
         <Product
-            id="03"
-            title="Black Clover Anime Graphic T-shirt"
-            price={1000}
-            rating={2}
-            image="https://i.pinimg.com/564x/7a/4d/1d/7a4d1db7186a047fb3757e64d2b86889.jpg" alt="Image not found"
+            id="05"
+            title="CasualSleeve Style:RegularSleeve Length(cm): PrintOrigin"
+            price={5000}
+            rating={4}
+            image="https://i.pinimg.com/564x/66/83/0c/66830c8b9a7cf51934d6705b030737e6.jpg" alt="Image not found"
         />
 
     </div>
@@ -59,42 +59,42 @@ function Product2() {
     <div className="home__row">
 
         <Product
-            id="03"
+            id="06"
             title="Black Clover Anime Graphic T-shirt"
             price={3500}
             rating={3}
             image="https://i.pinimg.com/564x/7a/4d/1d/7a4d1db7186a047fb3757e64d2b86889.jpg" alt="Image not found"
         />
         <Product
-            id="01"
+            id="07"
             title="Black Clover Anime Graphic T-shirt"
             price={1500}
             rating={4}
             image="https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg" alt="Image not found"
         />
         <Product
-            id="03"
-            title="Black Clover Anime Graphic T-shirt"
-            price={3500}
+            id="08"
+            title="Matching kawai hoodie availble"
+            price={17000}
             rating={3}
-            image="https://i.pinimg.com/564x/7a/4d/1d/7a4d1db7186a047fb3757e64d2b86889.jpg" alt="Image not found"
+            image="https://i.pinimg.com/564x/08/df/b1/08dfb178d804aae02f059fc1b73755d2.jpg" alt="Image not found"
         />
     </div>
 
     <div className="home__row">
         <Product
-            id="03"
+            id="09"
             title="Black Clover Anime Graphic T-shirt"
             price={3500}
             rating={4}
             image="https://i.pinimg.com/564x/7a/4d/1d/7a4d1db7186a047fb3757e64d2b86889.jpg" alt="Image not found"
         />
         <Product
-            id="01"
-            title="Black Clover Anime Graphic T-shirt"
-            price={1500}
-            rating={2}
-            image="https://i.pinimg.com/564x/01/f8/77/01f877cd7c591f447575e6595a5ce5d4.jpg" alt="Image not found"
+            id="10"
+            title="Matching Hoodie available in two colors"
+            price={15000}
+            rating={4}
+            image="https://i.pinimg.com/564x/63/aa/22/63aa22d185c335ef3c7635f2ff82281d.jpg" alt="Image not found"
         />
     </div>
  </div>

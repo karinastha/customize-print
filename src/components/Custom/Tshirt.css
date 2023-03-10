@@ -68,7 +68,9 @@
 }
 
 .add__text {
-    margin: 25px 25px;
+    position: absolute;
+    transform: translate(875px, -85px);
+    /* margin: 25px 25px; */
     padding: 10px;
     height: 50%;
     width: 35%;
@@ -78,10 +80,9 @@
 }
 
 .add__image {
+    transform: translate(903px, -200px);
     margin: 25px 25px;
     padding: 10px;
     height: 50%;
-    width: 35%;
-    /* transform: translate(869%, -199%); */
-    transform: translate(800%, -136%);
+    width: 16%;
 }
